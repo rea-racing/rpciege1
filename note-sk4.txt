@@ -1,0 +1,7 @@
+curl -X POST -H 'Content-Type: application/json' \
+-d '{"jsonrpc":"2.0","id":8675309,"method":"getLatestLedger"}' \
+https://rpc-futurenet.stellar.org
+
+curl -X POST -H 'Content-Type: application/json' \
+-d '{"jsonrpc":"2.0","id":8675309,"method":"getLedgerEntries","params":{"keys":["AAAABvR+PjQYfchKqf9BEICC0onN9uQHIM37qPzZl0NpudMuAAAADQAAACwAAAATAAAAAAAAAABEcdaWrZo2qLUo3blHn+gLgVqmtpCfSZFzIID6EpyLPg=="]}}' \
+https://rpc-futurenet.stellar.org
