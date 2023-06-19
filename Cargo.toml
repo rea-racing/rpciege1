@@ -2,8 +2,11 @@
 resolver = "2"
 
 members = [
-    "ex-soroban/liquidity_pool",
-    "ex-soroban/token",
+    "game1",
+    "game5_liquiditypool",
+    "game5_callback",
+    "ex_liquidity_pool",
+    "ex_token"
 ]
 
 [profile.release]

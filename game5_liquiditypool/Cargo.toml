@@ -1,5 +1,5 @@
 [package]
-name = "game03"
+name = "game5_liquiditypool"
 version = "0.0.0"
 edition = "2021"
 publish = false
@@ -9,7 +9,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 soroban-sdk = { version = "0.8.4" }
-num-integer = { version = "0.1.45", default-features = false, features = ["i128"] }
 
 [dev_dependencies]
 soroban-sdk = { version = "0.8.4", features = ["testutils"] }
